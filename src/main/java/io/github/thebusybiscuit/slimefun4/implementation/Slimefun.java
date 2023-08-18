@@ -329,7 +329,7 @@ public final class Slimefun extends JavaPlugin implements SlimefunAddon {
         logger.log(Level.INFO, "Loading Tags...");
         loadTags();
 
-        logger.log(Level.INFO, "Loading items...");
+        logger.log(Level.INFO, "Загрузка предметов...");
         loadItems();
 
         logger.log(Level.INFO, "Загрузка исследований...");
