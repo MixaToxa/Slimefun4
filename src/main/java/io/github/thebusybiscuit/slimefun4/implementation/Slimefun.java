@@ -332,7 +332,7 @@ public final class Slimefun extends JavaPlugin implements SlimefunAddon {
         logger.log(Level.INFO, "Loading items...");
         loadItems();
 
-        logger.log(Level.INFO, "Loading researches...");
+        logger.log(Level.INFO, "Загрузка исследований...");
         loadResearches();
 
         registry.setResearchingEnabled(getResearchCfg().getBoolean("enable-researching"));
